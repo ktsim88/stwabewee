@@ -6,7 +6,8 @@ const app = Vue.createApp({
     },
     data() {
         return {
-
+            images: [],
+            name: "stwabewee"
         }
     }
     
