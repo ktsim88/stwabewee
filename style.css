@@ -1,3 +1,7 @@
 .hero {
     background-image: url(imgs/hero1.png);
 }
+.decor {
+    border-radius: 20px;
+    border: 2px solid #000000;
+}
