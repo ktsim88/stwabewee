@@ -8,7 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="style.css" />
+   
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link
@@ -17,6 +17,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -53,13 +54,20 @@
         <h2 class="mt-3">Gallery</h2> 
         <div class="row">
   <div class="col-md-4 col-sm-12 my-3" v-for="image in images">
-    <img :src="image.image" class="img-fluid">
+    <img :src="image.image" class="img-fluid gallery">
   </div>
 </div>
-<button type="button" class="btn btn-primary"><a href="https://www.instagram.com/stwabewee/" target="_blank">More Images Here</a></button>
+<button type="button" class="btn btn-primary my-3"><a href="https://www.instagram.com/stwabewee/" target="_blank">More Images Here</a></button>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     </main>
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> <div class="col-md-4 d-flex align-items-center"> <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 stwabewee, Inc</span> </div> <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#instagram"></use></svg></a></li> <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top fixed-bottom"> <div class="col-md-4 d-flex align-items-center"> <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 stwabewee, Inc</span> </div> <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> <li class="ms-3"><a class="text-body-secondary me-2" href="#" aria-label="Instagram"><img src="imgs/instagram-svgrepo-com.svg" alt="" class="icon"></a>
+    </li>
+    <li class="ms-3"><a class="text-body-secondary me-2" href="#" aria-label="Tiktok"><img src="imgs/tiktok-svgrepo-com (1).svg" alt="" class="icon"></a>
+    </li> 
+    <li class="ms-3"><a class="text-body-secondary me-4" href="#" aria-label="Discord"><img src="imgs/discord-icon-svgrepo-com.svg" alt="" class="icon"></a>
+    </li> 
+    </ul>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -75,3 +83,5 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+

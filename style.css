@@ -3,5 +3,20 @@
 }
 .decor {
     border-radius: 20px;
-    border: 2px solid #000000;
+    border: 2px solid black;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    background-color: rgb(171, 210, 255);
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.gallery {
+    border-radius: 20px;
+    border: 2px solid black;
 }
