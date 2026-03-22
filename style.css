@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 footer {
-    background-color: rgb(171, 210, 255);
+    background-color: #BD8698;
 }
 .icon {
     width: 30px;
@@ -20,3 +20,29 @@ footer {
     border-radius: 20px;
     border: 2px solid black;
 }
+.navbar {
+    background-color: #F4ACB7;
+}
+body {
+    background-color: #FADDE1;
+}
+
+#galleryBG {
+    background-color: #78425344;
+    padding: 2vh;
+}
+.btn {
+    background-color: #FF87AB;
+    color: rgb(0, 0, 0);
+    border: 1px black solid;
+}
+.btn:hover, #instaBtn:hover {
+    background-color: #6d3246;
+    border: 1px black solid;
+}
+.commissionBG {
+    background-color: #78425344;
+}
+#instaBtn {
+    background-color: #F4ACB7;
+} 
