@@ -2,12 +2,13 @@
   background: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(imgs/hero1.png);
-    
+    background-attachment: fixed;
+    background-position: center;
   background-size: cover;
-  background-position: center;
+  background-position-y:bottom;
   height: 150%;
 }
-.title {
+.title, h2 {
     font-size: 3rem;
     font-family: "brevia", sans-serif;
 font-weight: 600;
@@ -46,6 +47,9 @@ body {
 #galleryBG {
     background-color: #78425344;
     padding: 2vh;
+        border: 2px solid rgb(73, 19, 37);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #00000079;
 }
 .btn {
     background-color: #FF87AB;
@@ -55,9 +59,13 @@ body {
 .btn:hover, #instaBtn:hover {
     background-color: #6d3246;
     border: 1px black solid;
+    box-shadow: 0px 0px 10px #00000079;
 }
 .commissionBG {
     background-color: #78425344;
+    border-radius: 20px;
+    border: 2px solid rgb(73, 19, 37);
+    box-shadow: 0px 0px 10px #00000079;
 }
 #instaBtn {
     background-color: #F4ACB7;
@@ -66,4 +74,18 @@ body {
     font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+img {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #000000c4;
+    transition-duration: .5s;
+}
+img:hover {
+    box-shadow: 0px 0px 20px #000000c4;
+    transform: matrix3d(1.05, 0, 0, 0, 0, 1.05, 0, 0, 0, 0, 1.05, 0, -5, -5, 0, 1);
+
+    transition-duration: .5s;
+}
+.container {
+    border-radius: 20px;
 }
