@@ -89,3 +89,30 @@ img:hover {
 .container {
     border-radius: 20px;
 }
+.alert {
+    background-color: #be9da844;
+    border-radius: 20px;
+    border: 2px solid rgb(73, 19, 37);
+    box-shadow: 0px 0px 10px #00000079;
+    font-size: large;
+        transition-duration: 0.5s;
+}
+.alert:hover {
+    background-color: #be9da8;
+    border-radius: 20px;
+    border: 2px solid rgb(73, 19, 37);
+    box-shadow: 0px 0px 10px #00000079;
+    font-size: large;
+    transition-duration: 0.5s;
+}
+.icon {
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #000000c4;
+    transition-duration: .5s;
+}
+.icon:hover {
+    box-shadow: 0px 0px 10px #000000c4;
+    transform: matrix3d(1.05, 0, 0, 0, 0, 1.05, 0, 0, 0, 0, 1.05, 0, -5, -5, 0, 1);
+    transition-duration: .5s;
+    border-radius: 20px;
+}
